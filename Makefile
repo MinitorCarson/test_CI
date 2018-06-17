@@ -1,2 +1,2 @@
 test:
-    ci/run_tests.sh
+	ci/run_tests.sh
