@@ -1,2 +1,4 @@
 language: python
-script: true
+python:
+  - "2.7"
+script: python -m unittest test_process
