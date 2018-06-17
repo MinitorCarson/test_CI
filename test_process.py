@@ -1,12 +1,13 @@
 import unittest
-import process_pic
+import resize_pic
 
 
 
 class TestDict(unittest.TestCase):
 
     def test_init(self):
-        a=process_pic.generate_colorpic('get','re')
+        #a=process_pic.generate_colorpic('get','re')
+        a=resize_pic.pre_process('get')
         #d = Dict(a=1, b='test')
         self.assertEqual(a, 1)
         #self.assertEquals(d.b, 'test')
