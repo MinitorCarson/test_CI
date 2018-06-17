@@ -1,5 +1,5 @@
 
 language: python
 sudo: required
-before_install: sudo pip install foo
+before_install:true
 script: py.test
