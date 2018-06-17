@@ -12,7 +12,7 @@ def pre_process(pic_name):
 	resize_400(pic_name)
 	isexit=False
 	while isexit==False:
-		isexit=os.path.exists('/root/web/get.png')
+		isexit=os.path.exists('get.png')
 		print('wait')
 	#return 1
 	print('Finish pre_process')
