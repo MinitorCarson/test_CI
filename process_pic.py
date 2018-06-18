@@ -19,9 +19,10 @@ def generate_colorpic(picname,result_name):
 	# picname='cai'
 	resize_pic.pre_process(picname)
 
-	# Get images
-	image = img_to_array(load_img(picname+'.jpg'))
+	image = img_to_array(load_img(picname + '.jpg'))
 	image = np.array(image, dtype=float)
+	# Get images
+
 
 	X = rgb2lab(1.0/255*image)[:,:,0]
 	print (X)

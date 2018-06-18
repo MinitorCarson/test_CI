@@ -20,3 +20,10 @@ class TestDict(unittest.TestCase):
         #self.assertTrue('key' in d)
         #self.assertEquals(d['key'], 'value')
 
+    def test_attr2(self):
+        print 'Finish  all'
+        #d = Dict()
+        #d.key = 'value'
+        #self.assertTrue('key' in d)
+        #self.assertEquals(d['key'], 'value')
+
